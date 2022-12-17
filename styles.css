@@ -48,7 +48,7 @@ p{
 }
 
 img {
-    width: 60%;
+    width: 80%;
     height: auto;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -58,11 +58,14 @@ img {
     display: flex;
     align-content: center;
     text-align: center;
+    gap: .5rem;
     scale: 1;
     opacity: 1;
     transition: all 1s;
     margin: 2rem 0;
 
+    
+    
 }
 .collage > .hidden {
     width: 100%;
@@ -78,7 +81,7 @@ img {
 
 .collage > .show {
     opacity: 1;
-    scale: 1.5;
+    scale: 1.75;
     /* transform: translateX(0); */
 
 }
