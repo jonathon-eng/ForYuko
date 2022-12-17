@@ -28,6 +28,7 @@ body::-webkit-scrollbar {
 section{
     display: grid;
     place-items: center;
+    justify-content: center;
     align-content: center;
     min-height: 100vh;
     scroll-snap-align: start;
@@ -35,6 +36,7 @@ section{
 }
 
 p{
+    justify-content: center;
     text-align: center;
 }
 
@@ -69,7 +71,8 @@ img {
     scale: 1;
     opacity: 1;
     transition: all 1s;
-    margin: 2rem 0;
+    margin: 1rem 0;
+    z-index: 1;
 
     
     
@@ -82,20 +85,33 @@ img {
     /* transform: translateX(-100%); */
 }
 .collage > .hidden > img {
+    position: relative;
     box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    z-index: 1;
+    transition: 1s;
+}
+
+.collage > .hidden > img:hover{
+    scale: 2;
+    z-index: 20;
+ 
+}
+.collage > .hidden > .special:hover{
+scale: 1;
+ 
 }
 
 .collage > .show {
     opacity: 1;
     scale: 1;
+    transition: 2s;
     /* transform: translateX(0); */
 
 }
 
 .inside:nth-child(2){
     transition-delay: 200ms;
-    /*  */
 }
 .inside:nth-child(3){
     transition-delay: 300ms;
