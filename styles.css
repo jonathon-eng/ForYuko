@@ -1,10 +1,13 @@
 body{
     padding: 0;
     margin: 0;
+    height: 100vh;
     background-color: rgba(53,59,76,255);
     color: rgba(177, 177, 177, 255);
-
     font-size: 2rem;
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .container{
@@ -16,6 +19,10 @@ body{
     scroll-snap-type: y mandatory;
     margin: 1rem;
 
+}
+
+.container::-webkit-scrollbar {
+    display: none;
 }
 
 section{
@@ -81,7 +88,7 @@ img {
 
 .collage > .show {
     opacity: 1;
-    scale: 1.75;
+    scale: 1.25;
     /* transform: translateX(0); */
 
 }
