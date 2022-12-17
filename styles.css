@@ -13,6 +13,7 @@ body{
     overflow: auto;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
+    margin: 1rem;
 
 }
 
