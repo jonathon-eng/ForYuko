@@ -2,8 +2,8 @@ body{
     padding: 0;
     margin: 0;
     background-color: rgba(53,59,76,255);
-    /* color: rgba(177, 177, 177, 255); */
-    color: red;
+    color: rgba(177, 177, 177, 255);
+    /* color: red; */
     font-size: 2rem;
 }
 
