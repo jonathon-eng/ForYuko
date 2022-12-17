@@ -66,6 +66,7 @@ img {
 .collage > .hidden {
     width: 100%;
     scale: 2.5;
+    opacity: 0;
     
     /* transform: translateX(-100%); */
 }
@@ -75,6 +76,7 @@ img {
 }
 
 .collage > .show {
+    opacity: 1;
     scale: 2;
     /* transform: translateX(0); */
 
