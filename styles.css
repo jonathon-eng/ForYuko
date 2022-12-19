@@ -26,9 +26,21 @@ body::-webkit-scrollbar {
 
 }
 
+main::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+    overflow: -moz-scrollbars-none;
+}
 .container::-webkit-scrollbar {
     display: none;
+    scrollbar-width: none;
+    overflow: -moz-scrollbars-none;
 }
+
+html {
+    scrollbar-width: none;
+    overflow: -moz-scrollbars-none;
+  }
 
 section{
     display: grid;
