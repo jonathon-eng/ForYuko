@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
 body{
     padding: 0;
     margin: 0;
@@ -5,6 +8,8 @@ body{
     background-color: rgba(53,59,76,255);
     color: rgba(177, 177, 177, 255);
     font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    
 }
 body::-webkit-scrollbar {
     display: none;
@@ -120,7 +125,8 @@ scale: 1;
 
 
 .special{
-    width: 60%;
+    width: 50%;
+    transition: 1s all;
 }
 
 .vibrate-1{
@@ -223,4 +229,6 @@ section > p > .show:nth-child(4){
     transition-delay: 3.25s;
     opacity: 1;
 }
+
+
 
